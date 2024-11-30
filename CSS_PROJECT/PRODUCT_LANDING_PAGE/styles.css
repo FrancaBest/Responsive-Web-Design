@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+#page-wrapper {
+    position: relative;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+}
+  
+
+#header-img {
+    width: 270px;
+    margin-left: 20px;
+    
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    list-style:none;
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ img {
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+
+#hero h2 {
+    text-align: center;
+    font-family: Raleway, sans-serif; 
+    font-style: normal;
+    font-size: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 15px;
+}
+
+#email {
+    width: 25%;
+    padding: 3px;
+}
+
+#submit {
+    margin-top: 10px;
+    width: 20%;
+    padding: 3px;
+    color: black;
+    background-color: hwb(60 11% 13%);
+    text-align: center;
+    font-family: "Raleway, sans-serif";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#Features h2 {
+  text-align: left;
+ 
+}
+
+.desc {
+   display: inline-block;
+   text-align: left;
+   
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+#How-It-Works {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;  
+    
+}
+
+#pricing .Product, h2 {
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+#tenor, #bass, #valva{
+    width: 30%;
+    height: 25vw;
+    border-style: groove;
+    border-color: black;
+    border-width: 0.1em;
+    margin-bottom: 2%;
+}
+
+.level {
+    background-color: rgb(213, 218, 223);
+    text-align: center;
+    padding: 10px;
+
+}
+
+#Pricing, h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+}
+
+#pricing, ol li {
+    list-style: none;
+    text-align: center;
+    
+}
+button:hover {
+    background-color: rgb(213, 216, 24);
+}
+
+button {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 15%;
+    text-transform: uppercase;
+    border: none;
+    background-color: hwb(51 1% 10%);
+    cursor: pointer;
+}
+
+.grid {
+    display: flex;
+}
+
+footer {
+    background-color: rgb(213, 218, 223);
+    text-align:right;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2%;
+    width: 80%;   
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+footer a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: right;   
+    
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #header-img {
+        width: 270px;
+        margin-left: 20px;
+        
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #eee;
+        width: 100%;
+    }
+
+    
+}

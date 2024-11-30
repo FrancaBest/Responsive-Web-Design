@@ -1,0 +1,149 @@
+
+
+body {
+  
+    background-color:rgb(240, 236, 240);  
+    margin: 0 auto;
+    display: block;
+    flex-direction: column; 
+    padding: 0 15px 0 15px;
+} 
+
+#tribute-info {
+    margin: 0 auto;  
+    width: 100vw;
+    max-width: 800px;
+    min-width: 300px;
+  
+}
+
+#img-div {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-left: 1em;
+    margin-right: 1em;  
+
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#figure, #img-caption {
+     text-align: center;
+     font-family: Raleway, sans-serif;
+     font-size: 17px;;
+}
+
+
+
+#title {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    /* padding: 2px; */
+}
+
+#description {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+li p{
+    padding: 3px;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+   font-size: 1.1rem; 
+    
+}
+
+li {
+    display: inline-flex;
+}
+
+ul {
+  
+    display: inline-block;
+}
+
+quote {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    padding: 2px;
+    margin-top: 5px;
+  }
+
+quote::before {
+    content: '" ';
+  }
+  
+  quote::after {
+    content: ' "';
+   
+  }
+
+  footer {
+   
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+  }
+
+  #more-info {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Raleway, sans-serif;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 1000px) {
+    body {
+  
+        background-color:rgb(240, 236, 240);  
+        margin: 0 auto;
+        display: block;
+        flex-direction: column; 
+        padding: 0 15px 0 15px;
+    } 
+
+    #tribute-info {
+        margin: 0 auto;  
+        width: 100vw;
+        max-width: 800px;
+        min-width: 300px;
+      
+    }
+
+    #img-div {
+        width: 100%;
+        height: 800px;
+        background-color: white;
+        margin-left: 1em;
+        margin-right: 1em;  
+    
+    }
+
+    #image {
+        max-width: 1700px;
+        height: 700px;
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+  }
+
+  
